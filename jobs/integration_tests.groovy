@@ -1,6 +1,6 @@
 folder('integration-tests') {
     displayName('Integration tests')
-    descriptions('Integration test jobs configured through JobDSL')
+    description('Integration test jobs configured through JobDSL')
 }
 
 pipelineJob('integration-tests/_create-integration-tests') {
