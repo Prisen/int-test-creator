@@ -2,7 +2,7 @@
 
 def createJob(project) {
     return """
-    pipelineJob('integration-tests(${project}') {
+    pipelineJob('integration-tests/${project}') {
         definition {
             cps {
                 sandbox()
