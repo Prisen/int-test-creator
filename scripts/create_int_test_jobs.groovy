@@ -34,7 +34,8 @@ def createJob(project) {
                     }
                 \"\"\")    
             }
-        }        
+        }
+    }            
     """
 }
 
