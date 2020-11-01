@@ -8,7 +8,7 @@ pipelineJob('integration-tests/_create-integration-tests') {
     definition {
         cps {
             sandbox()
-            scripts(readFileFromWorkspace('scripts/create_int_test_jobs.groovy'))
+            script(readFileFromWorkspace('scripts/create_int_test_jobs.groovy'))
         }
     }
 }
