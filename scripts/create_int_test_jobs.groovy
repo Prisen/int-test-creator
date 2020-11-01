@@ -21,7 +21,7 @@ def createJob(project) {
                     node {
                         stage('Run tests') {
                             git(branch: 'master',
-                            credentials: 'pontusgithub',
+                            credentials: 'github-personal-access-token',
                             url: 'https://github.com/Prisen/${project}.git')
                             sh "./mvnw clean test"
                         }
